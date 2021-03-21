@@ -1,0 +1,160 @@
+﻿<!DOCTYPE html>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<html>
+<head>
+    <meta charset="utf-8" />
+    <script src="GamesScript.js"></script>
+    <link href="GameStyle.css" rel="stylesheet" />
+    <title>Games</title>
+</head>
+<body>
+    <h1>Game Store</h1>
+    <h2 id="comingsoon-header">Coming Soon</h2>
+    <div id="coming-soon-games">
+        <div id="back-image-div">
+            <button id="back-image">Back</button>
+        </div>
+        <div id="next-image-div">
+            <button id="next-image">Next</button>
+        </div>
+    </div>
+    <div id="tool-header">
+        <label>Choose a Console:</label>
+        <select name="consoles" id="console-list" class="drop-down">
+            <option value="All">All</option>
+            <option value="Xbox One">Xbox One</option>
+            <option value="Xbox Series X">Xbox Series X</option>
+            <option value="PS4">PS4</option>
+            <option value="Nintendo Switch">Nintendo Switch</option>
+            <option value="PC">PC</option>
+            <option value="Stadia">Stadia</option>
+        </select>
+        <label>Price:</label>
+        <input type="text" id="price-filter" class="text-input" />
+        <label>Genre:</label>
+        <select name="genres" id="genre-list" class="drop-down">
+            <option value="None">None</option>
+            <option value="Action">Action</option>
+            <option value="RPG">RPG</option>
+            <option value="Platform">Platform</option>
+            <option value="Shooter">Shooter</option>
+            <option value="Sports">Sports</option>
+        </select>
+        <button id="set-max-price">Set Max Price</button>
+        <button id="show-input-button" href="#add-game-form">Add a New Game to our Website!</button>
+    </div>
+    <br />
+    <div id="output-text"></div>
+    <div id="clear"></div>
+    <div id="game-info"></div>
+    <div id="clear"></div>
+    <div id="add-game-form">
+        <h2>Add A Game Info</h2>
+        <form id="game-form">
+            <label>Title:</label>
+            <input data-th="Title" type="text" id="game-title-input" class="text-input" required />
+            <label>Developer:</label>
+            <input data-th="Developer" type="text" id="game-developer-input" class="text-input" required />
+            <fieldset id="date-set">
+                <label class="set-label">Release Date:</label>
+                <select name="month" id="month" class="drop-down" required>
+                    <option value="January">January</option>
+                    <option value="February">February</option>
+                    <option value="March">March</option>
+                    <option value="April">April</option>
+                    <option value="May">May</option>
+                    <option value="June">June</option>
+                    <option value="July">July</option>
+                    <option value="August">August</option>
+                    <option value="September">Septmeber</option>
+                    <option value="October">October</option>
+                    <option value="November">November</option>
+                    <option value="December">December</option>
+                </select>
+                <select name="day" id="day" class="drop-down" required>
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                    <option value="6">6</option>
+                    <option value="7">7</option>
+                    <option value="8">8</option>
+                    <option value="9">9</option>
+                    <option value="10">10</option>
+                    <option value="11">11</option>
+                    <option value="12">12</option>
+                    <option value="13">13</option>
+                    <option value="14">14</option>
+                    <option value="15">15</option>
+                    <option value="16">16</option>
+                    <option value="17">17</option>
+                    <option value="18">18</option>
+                    <option value="19">19</option>
+                    <option value="20">20</option>
+                    <option value="21">21</option>
+                    <option value="22">22</option>
+                    <option value="23">23</option>
+                    <option value="24">24</option>
+                    <option value="25">25</option>
+                    <option value="26">26</option>
+                    <option value="27">27</option>
+                    <option value="28">28</option>
+                    <option value="29">29</option>
+                    <option value="30">30</option>
+                    <option value="31">31</option>
+                </select>
+                <input type="text" name="year" id="year" min="1980" max="2020" class="text-input" required />
+            </fieldset>
+            <label>Price:</label>
+            <input data-th="Price" type="text" id="game-price-input" class="text-input" />
+            <br />
+            <label class="set-label">Genre:</label>
+            <fieldset required>
+                <label class="genre-label">Action</label>
+                <input data-th="Action" type="radio" name="genre" value="Action" class="genre-rad" />
+                <label class="genre-label">Shooter</label>
+                <input data-th="Shooter" type="radio" name="genre" value="Shooter" class="genre-rad" />
+                <label class="genre-label">Platform</label>
+                <input data-th="Platform" type="radio" name="genre" value="Platform" class="genre-rad" />
+                <label class="genre-label">RPG</label>
+                <input data-th="RPG" type="radio" name="genre" value="RPG" class="genre-rad" />
+                <label class="genre-label">Sports</label>
+                <input data-th="Sports" type="radio" name="genre" value="Sports" class="genre-rad" />
+            </fieldset>
+            <label class="set-label">Platforms:</label>
+            <fieldset required>
+                <label class="platform-label">Xbox One</label>
+                <input data-th="Xbox One"type="checkbox" name="platform " value="Xbox One" class="platform-check"/>
+                <label class="platform-label">Xbox Series X</label>
+                <input data-th="Xbox Series X" type="checkbox" name="platform" value="Xbox Series X" class="platform-check"/>
+                <label class="platform-label">PS4</label>
+                <input data-th="PS4" type="checkbox" name="platform" value="PS4" class="platform-check"/>
+                <label class="platform-label">Nintendo Switch</label>
+                <input data-th="Nintendo Switch" type="checkbox" name="platform" value="Nintendo Switch" class="platform-check"/>
+                <label class="platform-label">PC</label>
+                <input data-th="PC" type="checkbox" name="platform" value="PC" class="platform-check"/>
+                <label class="platform-label">Stadia</label>
+                <input data-th="Stadia" type="checkbox" name="platform" value="Stadia" class="platform-check"/>
+            </fieldset>
+            <label>Rating:</label>
+            <select data-th="Rating" name="rating" id="rating" class="drop-down" required>
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+            </select>
+            <label>Image URL:</label>
+            <input data-th="Image URL" type="text" id="image-input" class="text-input" required />
+            <br />
+            <label class="set-label">Description:</label>
+            <fieldset>
+                <textarea id="description-input" rows="10" cols="50" required></textarea>
+            </fieldset>
+            <button id="add-game-submit">Submit</button>
+            <button id="add-game-cancel">Cancel</button>
+        </form>
+    </div>
+</body>
+</html>

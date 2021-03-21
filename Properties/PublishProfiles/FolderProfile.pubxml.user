@@ -1,0 +1,256 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+This file is used by the publish/package process of your Web project. You can customize the behavior of this process
+by editing this MSBuild file. In order to learn more about this please visit https://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <_PublishTargetUrl>X:\Lab3</_PublishTargetUrl>
+  </PropertyGroup>
+  <ItemGroup>
+    <File Include="bin/GawbillLab3.dll">
+      <publishTime>10/23/2020 19:40:15</publishTime>
+    </File>
+    <File Include="bin/GawbillLab3.pdb">
+      <publishTime>10/23/2020 19:40:15</publishTime>
+    </File>
+    <File Include="bin/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll">
+      <publishTime>05/24/2018 13:38:22</publishTime>
+    </File>
+    <File Include="bin/roslyn/csc.exe">
+      <publishTime>05/24/2018 13:38:22</publishTime>
+    </File>
+    <File Include="bin/roslyn/csc.exe.config">
+      <publishTime>05/24/2018 13:38:22</publishTime>
+    </File>
+    <File Include="bin/roslyn/csc.rsp">
+      <publishTime>05/24/2018 13:38:22</publishTime>
+    </File>
+    <File Include="bin/roslyn/csi.exe">
+      <publishTime>05/24/2018 13:38:22</publishTime>
+    </File>
+    <File Include="bin/roslyn/csi.exe.config">
+      <publishTime>05/24/2018 13:38:22</publishTime>
+    </File>
+    <File Include="bin/roslyn/csi.rsp">
+      <publishTime>05/24/2018 13:38:22</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.Build.Tasks.CodeAnalysis.dll">
+      <publishTime>05/24/2018 13:38:22</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.CodeAnalysis.CSharp.dll">
+      <publishTime>05/24/2018 13:38:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.CodeAnalysis.CSharp.Scripting.dll">
+      <publishTime>05/24/2018 13:38:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.CodeAnalysis.dll">
+      <publishTime>05/24/2018 13:38:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.CodeAnalysis.Scripting.dll">
+      <publishTime>05/24/2018 13:38:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.CodeAnalysis.VisualBasic.dll">
+      <publishTime>05/24/2018 13:38:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.CSharp.Core.targets">
+      <publishTime>05/24/2018 13:38:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.DiaSymReader.Native.amd64.dll">
+      <publishTime>05/24/2018 13:38:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.DiaSymReader.Native.x86.dll">
+      <publishTime>05/24/2018 13:38:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.Managed.Core.targets">
+      <publishTime>05/24/2018 13:38:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.VisualBasic.Core.targets">
+      <publishTime>05/24/2018 13:38:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.AppContext.dll">
+      <publishTime>05/24/2018 13:38:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Collections.Immutable.dll">
+      <publishTime>05/24/2018 13:38:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Console.dll">
+      <publishTime>05/24/2018 13:38:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Diagnostics.FileVersionInfo.dll">
+      <publishTime>05/24/2018 13:38:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Diagnostics.StackTrace.dll">
+      <publishTime>05/24/2018 13:38:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.IO.Compression.dll">
+      <publishTime>05/24/2018 13:38:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.IO.FileSystem.dll">
+      <publishTime>05/24/2018 13:38:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.IO.FileSystem.Primitives.dll">
+      <publishTime>05/24/2018 13:38:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.IO.Pipes.AccessControl.dll">
+      <publishTime>05/24/2018 13:38:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.IO.Pipes.dll">
+      <publishTime>05/24/2018 13:38:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Reflection.Metadata.dll">
+      <publishTime>05/24/2018 13:38:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Security.AccessControl.dll">
+      <publishTime>05/24/2018 13:38:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Security.Claims.dll">
+      <publishTime>05/24/2018 13:38:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Security.Cryptography.Algorithms.dll">
+      <publishTime>05/24/2018 13:38:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Security.Cryptography.Encoding.dll">
+      <publishTime>05/24/2018 13:38:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Security.Cryptography.Primitives.dll">
+      <publishTime>05/24/2018 13:38:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Security.Cryptography.X509Certificates.dll">
+      <publishTime>05/24/2018 13:38:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Security.Principal.Windows.dll">
+      <publishTime>05/24/2018 13:38:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Text.Encoding.CodePages.dll">
+      <publishTime>05/24/2018 13:38:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.ValueTuple.dll">
+      <publishTime>05/24/2018 13:38:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Xml.ReaderWriter.dll">
+      <publishTime>05/24/2018 13:38:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Xml.XmlDocument.dll">
+      <publishTime>05/24/2018 13:38:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Xml.XPath.dll">
+      <publishTime>05/24/2018 13:38:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Xml.XPath.XDocument.dll">
+      <publishTime>05/24/2018 13:38:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/vbc.exe">
+      <publishTime>05/24/2018 13:38:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/vbc.exe.config">
+      <publishTime>05/24/2018 13:38:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/vbc.rsp">
+      <publishTime>05/24/2018 13:38:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/VBCSCompiler.exe">
+      <publishTime>05/24/2018 13:38:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/VBCSCompiler.exe.config">
+      <publishTime>05/24/2018 13:38:24</publishTime>
+    </File>
+    <File Include="Games.html">
+      <publishTime>10/22/2020 20:07:48</publishTime>
+    </File>
+    <File Include="GamesScript.js">
+      <publishTime>10/23/2020 19:38:24</publishTime>
+    </File>
+    <File Include="GameStyle.css">
+      <publishTime>10/23/2020 16:42:40</publishTime>
+    </File>
+    <File Include="images/Battlefield5_BoxArt.png">
+      <publishTime>10/23/2020 16:38:03</publishTime>
+    </File>
+    <File Include="images/Borderlands3_BoxArt.jpg">
+      <publishTime>10/08/2020 19:26:17</publishTime>
+    </File>
+    <File Include="images/Fallout4_BoxArt.jpg">
+      <publishTime>10/22/2020 18:09:22</publishTime>
+    </File>
+    <File Include="images/Fifa20_BoxArt.jpg">
+      <publishTime>10/22/2020 18:21:51</publishTime>
+    </File>
+    <File Include="images/FinalFantasy15_BoxArt.jpg">
+      <publishTime>10/22/2020 22:09:25</publishTime>
+    </File>
+    <File Include="images/Gears5_BoxArt.jpg">
+      <publishTime>10/22/2020 18:31:56</publishTime>
+    </File>
+    <File Include="images/Halo5_BoxArt.jpg">
+      <publishTime>10/22/2020 18:29:28</publishTime>
+    </File>
+    <File Include="images/haloinfinite_comingsoon.png">
+      <publishTime>10/18/2020 19:09:28</publishTime>
+    </File>
+    <File Include="images/LastofUs2_BoxArt.jpg">
+      <publishTime>10/22/2020 18:09:21</publishTime>
+    </File>
+    <File Include="images/Madden20_BoxArt.jpg">
+      <publishTime>10/08/2020 19:55:22</publishTime>
+    </File>
+    <File Include="images/MassEffectAndromeda_BoxArt.jpeg">
+      <publishTime>10/22/2020 18:36:12</publishTime>
+    </File>
+    <File Include="images/milesmorales_comingsoon.jpg">
+      <publishTime>10/18/2020 19:09:28</publishTime>
+    </File>
+    <File Include="images/ModernWarfare_BoxArt.jpg">
+      <publishTime>10/23/2020 16:38:03</publishTime>
+    </File>
+    <File Include="images/MyFriendPedro_BoxArt.jpg">
+      <publishTime>10/22/2020 22:10:19</publishTime>
+    </File>
+    <File Include="images/MyFriendPedro_BoxArt.png">
+      <publishTime>10/08/2020 19:08:23</publishTime>
+    </File>
+    <File Include="images/NBA2K20_BoxArt.jpg">
+      <publishTime>10/22/2020 18:27:27</publishTime>
+    </File>
+    <File Include="images/NHL20_BoxArt.jpg">
+      <publishTime>10/22/2020 18:24:23</publishTime>
+    </File>
+    <File Include="images/OragamiKing_BoxArt.jpg">
+      <publishTime>10/22/2020 22:05:52</publishTime>
+    </File>
+    <File Include="images/OriWill_BoxArt.jpg">
+      <publishTime>10/22/2020 18:34:06</publishTime>
+    </File>
+    <File Include="images/Persona5_BoxArt.jpg">
+      <publishTime>10/08/2020 16:18:03</publishTime>
+    </File>
+    <File Include="images/QuantuamBreak_BoxArt.jpg">
+      <publishTime>10/22/2020 18:09:22</publishTime>
+    </File>
+    <File Include="images/ratchet_comingsoon.jpg">
+      <publishTime>10/18/2020 19:09:28</publishTime>
+    </File>
+    <File Include="images/SpiderMan_BoxArt.png">
+      <publishTime>10/22/2020 18:09:22</publishTime>
+    </File>
+    <File Include="images/SunsetOverdrive_BoxArt.jpg">
+      <publishTime>10/22/2020 18:09:22</publishTime>
+    </File>
+    <File Include="images/SuperLuckysTale_BoxArt.jpg">
+      <publishTime>10/22/2020 18:09:21</publishTime>
+    </File>
+    <File Include="images/SuperMario3D_BoxArt.jpg">
+      <publishTime>10/22/2020 18:09:21</publishTime>
+    </File>
+    <File Include="images/SuperMarioOdyssey_BoxArt.jpg">
+      <publishTime>10/22/2020 18:09:22</publishTime>
+    </File>
+    <File Include="images/TheShow20_BoxArt.jpg">
+      <publishTime>10/08/2020 19:54:25</publishTime>
+    </File>
+    <File Include="images/Xenoblade2_BoxArt.jpg">
+      <publishTime>10/22/2020 18:09:22</publishTime>
+    </File>
+  </ItemGroup>
+</Project>
